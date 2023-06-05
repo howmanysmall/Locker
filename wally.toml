@@ -1,0 +1,13 @@
+[package]
+name = "howmanysmall/locker"
+description = "A utility for freezing tables."
+license = "MIT"
+version = "1.0.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+exclude = [
+	"README.md", ".gitignore",
+	"aftman.toml", "selene.toml", "stylua.toml",
+]
+
+[dependencies]
